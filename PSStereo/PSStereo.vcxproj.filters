@@ -1,0 +1,135 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\ALgorithms">
+      <UniqueIdentifier>{bed53555-3f2f-4719-aeb3-3a7c46b7d224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ALgorithms\CPU">
+      <UniqueIdentifier>{1c4f9484-d563-486f-b5b9-abc20b2daabf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\ALgorithms\GPU">
+      <UniqueIdentifier>{5bcd9373-b3ca-4224-b840-89aed8c32102}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Algorithms">
+      <UniqueIdentifier>{5f1bc8d5-67b7-41ae-87df-4525d2cbc1fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Algorithms\GPU">
+      <UniqueIdentifier>{6f6d77bc-6ad7-4e0a-9c15-df11d5ff6de3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Algorithms\CPU">
+      <UniqueIdentifier>{6202099b-4a76-48c6-ae59-23362d610765}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Cameras">
+      <UniqueIdentifier>{ec1ad501-3683-4e75-b04c-43402d0a5681}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Cameras">
+      <UniqueIdentifier>{a3f0b63a-be79-4a37-9482-f5c481ec3843}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="calibration.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cpu_SGBM_stereo.cpp">
+      <Filter>Source Files\ALgorithms\CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="cpu_VAR_stereo.cpp">
+      <Filter>Source Files\ALgorithms\CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="cpu_BM_stereo.cpp">
+      <Filter>Source Files\ALgorithms\CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="gpu_BM_stereo.cpp">
+      <Filter>Source Files\ALgorithms\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="stereo_alg.cpp">
+      <Filter>Source Files\ALgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="gpu_BP_stereo.cpp">
+      <Filter>Source Files\ALgorithms\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="gpu_CSBP_stereo.cpp">
+      <Filter>Source Files\ALgorithms\GPU</Filter>
+    </ClCompile>
+    <ClCompile Include="new_stereo.cpp">
+      <Filter>Source Files\ALgorithms\CPU</Filter>
+    </ClCompile>
+    <ClCompile Include="noise.cpp">
+      <Filter>Source Files\ALgorithms</Filter>
+    </ClCompile>
+    <ClCompile Include="stereo_system.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="pseye.cpp">
+      <Filter>Source Files\Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="minoru.cpp">
+      <Filter>Source Files\Cameras</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\calibration.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\cpu_SGBM_stereo.h">
+      <Filter>Header Files\Algorithms\CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\cpu_VAR_stereo.h">
+      <Filter>Header Files\Algorithms\CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\cpu_BM_stereo.h">
+      <Filter>Header Files\Algorithms\CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\gpu_BM_stereo.h">
+      <Filter>Header Files\Algorithms\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\stereo_alg.h">
+      <Filter>Header Files\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\gpu_BP_stereo.h">
+      <Filter>Header Files\Algorithms\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\gpu_CSBP_stereo.h">
+      <Filter>Header Files\Algorithms\GPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\global_params.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\new_stereo.h">
+      <Filter>Header Files\Algorithms\CPU</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\noise.h">
+      <Filter>Header Files\Algorithms</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\stereo_system.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\pseye.h">
+      <Filter>Header Files\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\stereo_camera.h">
+      <Filter>Header Files\Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\minoru.h">
+      <Filter>Header Files\Cameras</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
